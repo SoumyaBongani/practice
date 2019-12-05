@@ -1,0 +1,7 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{element.name}}</h5>
+        <p class="card-text text-primary" *ngIf="element.type==='server'">{{element.content}}</p>
+        <p class="card-text text-danger" *ngIf="element.type==='blueprint'">{{element.content}}</p>        
+    </div>
+</div>
